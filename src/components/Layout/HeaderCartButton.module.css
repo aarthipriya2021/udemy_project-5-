@@ -4,11 +4,11 @@
     background-color: #4d1601;
     color: white;
     cursor: pointer;
-    padding: 0.75rem 3rem;
+    padding: 0.51rem 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 28px;
     font-weight: bold;
 }
 
