@@ -7,13 +7,13 @@ const DUMMY_MEALS = [
     {
       id: 'm1',
       name: 'Mutton Biryani',
-      description: 'Goat meat, fried onions, basmati rice, , spices',
+      description: 'Goat meat, fried onions, basmati rice, spices',
       price: 250.00,
     },
     {
       id: 'm2',
       name: 'Chicken Biryani',
-      description: 'Chicken meat, fried onions, basmati rice, , spices',
+      description: 'Chicken meat, fried onions, basmati rice, spices',
       price: 170.00,
     },
     {
@@ -25,7 +25,7 @@ const DUMMY_MEALS = [
     {
       id: 'm4',
       name: 'Fish Biryani',
-      description: 'Seer fish, fried onions, basmati rice, , spices.',
+      description: 'Seer fish, fried onions, basmati rice, spices',
       price: 210.00,
     },
   ];

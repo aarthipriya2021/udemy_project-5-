@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
-import { CartIcon} from '../Cart/CartIcon'
+import { CartIcon} from '../Cart/CartIcon';
+import { cartContext} from '../../store/cart-context';
 import classes from './HeaderCartButton.module.css'
 
-export const HeaderCartButton = () => {
+export const HeaderCartButton = (props) => {
+    
     return (
-        <button className={classes.button}>
+        <button className={classes.button} onClick={props.onClick}>
         <span className={classes.icon}>
             <CartIcon />
         </span>
